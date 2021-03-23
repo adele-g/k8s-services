@@ -1,12 +1,14 @@
 <?php
 
-define( 'DB_NAME', 'data' );
+define( 'DB_NAME', 'wordpress' );
 
 define( 'DB_USER', 'lnymella' );
 
 define( 'DB_PASSWORD', '123' );
-
-define( 'DB_HOST', 'localhost' );
+/** MySQL hostname */
+define( 'DB_HOST', 'mysql:3306' );
+define('WP_HOME', 'http://192.168.99.103:5050');
+define('WP_SITEURL', 'http://192.168.99.103:5050');
 
 define( 'DB_CHARSET', 'utf8' );
 
@@ -24,7 +26,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
 $table_prefix = 'wp_';
 
 
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 if ( ! defined( 'ABSPATH' ) ) {
         define( 'ABSPATH', __DIR__ . '/' );

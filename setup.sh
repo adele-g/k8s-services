@@ -1,37 +1,16 @@
 #!/bin/sh
 
-# Start Minikube with VirtualBox 
-# pc_name=$HOSTNAME
-# echo "Start install minikube for $pc_name\n" | sed 's/.kzn.21-school.ru//'
-# if brew ls --versions > /dev/null; then
-# 	echo "All right"\n
-# 	cd ~
-# else
-# 	echo "Install"\n
-# 	curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
-# 	cd ~
-# fi
-#minikube delete
-#rm -rf ~/.minikube
-#rm -rf ~/goinfre/.minikube
-#brew remove minikube
-#brew install minikube
-#cd ~
-#brew unlink minikube
-#brew link minikube
-#mkdir -p .minikube
-#mv .minikube /goinfre/lnymella/.minikube
-#ln -s /goinfre/lnymella/.minikube .minikube
-#echo "😋 Minikube has been installed"
-#sleep 5
-#
-
-#minikube delete
+kubectl delete -f nginx
+kubectl delete -f wordpress
+kubectl delete -f mysql
+kubectl delete -f phpmyadmin
+#open -a docker
 minikube start --vm-driver=virtualbox
-#echo "⭐  Minikube has been started"
-##docker login
 eval $(minikube docker-env)
-#
+
+#docker pull metallb/speaker:v0.8.2
+#docker pull metallb/controller:v0.8.2
+
 ##minikube addons enable metrics-server
 minikube addons enable dashboard
 minikube addons enable metallb
@@ -43,17 +22,25 @@ minikube dashboard &  #& - выполнение в фоне
 ## echo "Minikube ip address = $MKB_IP"
 #
 #
+
 docker build -t nginx nginx
 docker build -t wordpress wordpress
+docker build -t mysql mysql
+docker build -t phpmyadmin phpmyadmin
 #
-kubectl apply -f config.yaml
+kubectl apply -f ./config.yaml
 ##if [ $? -ne 0 ]; then kubectl apply -f config.yaml
 ##fi
-kubectl apply -f nginx/nginx.yaml
+kubectl apply -f ./nginx/nginx.yaml
 ##if [ $? -ne 0 ]; then kubectl apply -f nginx/nginx.yaml
 ##fi
-kubectl apply -f wordpress/wordpress.yaml
-## rm ~/.ssh/known_hosts
+kubectl apply -f ./wordpress/wordpress.yaml
+
+kubectl apply -f mysql/mysql.yaml
+
+kubectl apply -f phpmyadmin/phpmyadmin.yaml
+
+rm ~/.ssh/known_hosts
 #
 sleep 5
 kubectl get pods

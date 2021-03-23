@@ -7,13 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f47b15-9dda-4cab-98f2-9f6130e530d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/srcs/default.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/emoji.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/nginx.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/server_config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/srcs/server_config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/re.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/srcs/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/server_config.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/wp-config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +67,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +90,19 @@
       <workItem from="1616158156816" duration="7081000" />
       <workItem from="1616171688899" duration="234000" />
       <workItem from="1616228082003" duration="6921000" />
-      <workItem from="1616239520678" duration="6505000" />
+      <workItem from="1616239520678" duration="6698000" />
+      <workItem from="1616311428199" duration="124000" />
+      <workItem from="1616311556139" duration="2427000" />
+      <workItem from="1616314874415" duration="3820000" />
+      <workItem from="1616332754319" duration="4376000" />
+      <workItem from="1616400502903" duration="7342000" />
+      <workItem from="1616421256470" duration="8654000" />
+      <workItem from="1616490464537" duration="4975000" />
+      <workItem from="1616499848933" duration="4285000" />
+      <workItem from="1616509281881" duration="2792000" />
+      <workItem from="1616512328855" duration="1988000" />
+      <workItem from="1616519884361" duration="2692000" />
+      <workItem from="1616523155490" duration="1203000" />
     </task>
     <servers />
   </component>
@@ -100,6 +111,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
