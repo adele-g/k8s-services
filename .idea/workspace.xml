@@ -7,19 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f47b15-9dda-4cab-98f2-9f6130e530d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ftps/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftps/ftps.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftps/vsftpd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/custom.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/dashboards.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/datasources.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/grafana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/supervisord.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb/influxdb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/telegraf/telegraf.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/telegraf/telegraf.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/emoji.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/re.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/srcs/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/server_config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/srcs/wp-config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/server.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +68,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grafana/configs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grafana/configs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +120,13 @@
       <workItem from="1616509281881" duration="2792000" />
       <workItem from="1616512328855" duration="1988000" />
       <workItem from="1616519884361" duration="2692000" />
-      <workItem from="1616523155490" duration="1203000" />
+      <workItem from="1616523155490" duration="1261000" />
+      <workItem from="1616572305370" duration="13030000" />
+      <workItem from="1616607733411" duration="1285000" />
+      <workItem from="1616609932543" duration="149000" />
+      <workItem from="1616610183119" duration="67000" />
+      <workItem from="1616610306787" duration="1340000" />
+      <workItem from="1616615260549" duration="5827000" />
     </task>
     <servers />
   </component>

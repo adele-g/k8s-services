@@ -1,0 +1,9 @@
+apiVersion: 1
+datasources:
+  - name: influxdb
+    type: influxdb
+    url: http://influxdb:8086
+    user: telegraf
+    password: telegraf
+    database: telegraf
+    editable: false
