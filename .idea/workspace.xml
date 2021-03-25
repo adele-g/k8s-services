@@ -7,16 +7,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f47b15-9dda-4cab-98f2-9f6130e530d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/grafana/configs/ftps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/configs/grafana.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftps/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftps/ftps.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/ftps.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftps/vsftpd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/vsftpd.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafana/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafana/configs/custom.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafana/grafana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/grafana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/ftps.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/vsftpd.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/Wordpress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/dashboards.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/datasources.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/ft_services_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/ftps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/grafana.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/influxdb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/metallb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/mysql.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/nginx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/telegraf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/grafana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/supervisord.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb/influxdb.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/create_database" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/my.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/srcs/supervisor.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmyadmin/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmyadmin/config.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmyadmin/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmyadmin/phpmyadmin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmyadmin/supervisord.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegraf/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegraf/telegraf.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegraf/telegraf.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/supervisord.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wordpress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-config.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +108,13 @@
       <recent name="$PROJECT_DIR$/grafana/configs" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -113,7 +158,7 @@
       <workItem from="1616610306787" duration="1340000" />
       <workItem from="1616615260549" duration="5986000" />
       <workItem from="1616656634897" duration="5585000" />
-      <workItem from="1616669622704" duration="2655000" />
+      <workItem from="1616669622704" duration="3774000" />
     </task>
     <servers />
   </component>

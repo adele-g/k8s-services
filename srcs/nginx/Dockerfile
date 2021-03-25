@@ -12,15 +12,6 @@ RUN mkdir /www;
 COPY srcs/default.conf /etc/nginx/nginx.conf
 COPY srcs/supervisor.conf /etc/supervisord.conf
 COPY server.sh .
-ADD srcs/image.jpg /var/www/image.jpg
-RUN echo -e "<!DOCTYPE html>                                    \n\
-<html>                                                          \n\
-<body> \n\
-<title>NGINX</title> \n\
-<h2>HELLO!!!</h2> \n\
-</body> \n\
-</html> \n\
-" > /var/www/index.html;
 
 RUN ssh-keygen -A && \
     adduser -D admin && \
