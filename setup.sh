@@ -35,7 +35,7 @@ docker build -t ftps ftps
 docker build -t influxdb influxdb
 docker build -t telegraf telegraf
 docker build -t grafana grafana
-#
+##
 kubectl apply -f ./config.yaml
 ##if [ $? -ne 0 ]; then kubectl apply -f config.yaml
 ##fi

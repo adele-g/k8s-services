@@ -7,23 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f47b15-9dda-4cab-98f2-9f6130e530d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ftps/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftps/ftps.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftps/vsftpd.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/configs/custom.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/configs/dashboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/configs/dashboards.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/configs/datasources.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/grafana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/supervisord.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/influxdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/telegraf/telegraf.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/telegraf/telegraf.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/ftps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/configs/grafana.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/ftps.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/ftps.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftps/vsftpd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ftps/vsftpd.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/configs/custom.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafana/grafana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/grafana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +70,6 @@
       <recent name="$PROJECT_DIR$/grafana/configs" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -126,7 +111,9 @@
       <workItem from="1616609932543" duration="149000" />
       <workItem from="1616610183119" duration="67000" />
       <workItem from="1616610306787" duration="1340000" />
-      <workItem from="1616615260549" duration="5827000" />
+      <workItem from="1616615260549" duration="5986000" />
+      <workItem from="1616656634897" duration="5585000" />
+      <workItem from="1616669622704" duration="2655000" />
     </task>
     <servers />
   </component>

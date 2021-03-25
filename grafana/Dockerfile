@@ -16,7 +16,16 @@ RUN apk add glibc-2.28-r0.apk
 RUN mkdir -p /var/lib/grafana/dashboards
 COPY configs/dashboards.yaml /usr/share/grafana/conf/provisioning/dashboards/dashboards.yaml
 COPY configs/datasources.yaml /usr/share/grafana/conf/provisioning/datasources/influxdb.yaml
-COPY configs/custom.ini /usr/share/grafana/conf/custom.ini
+#COPY configs/custom.ini /usr/share/grafana/conf/custom.ini
+COPY configs/ftps.json /var/lib/grafana/dashboards/ftps.json
+COPY configs/Grafana.json /var/lib/grafana/dashboards/Grafana.json
+COPY configs/influxdb.json /var/lib/grafana/dashboards/influxdb.json
+COPY configs/metallb.json /var/lib/grafana/dashboards/metallb.json
+COPY configs/mysql.json /var/lib/grafana/dashboards/mysql.json
+COPY configs/nginx.json /var/lib/grafana/dashboards/nginx.json
+COPY configs/ft_services_.json /var/lib/grafana/dashboards/ft_services.json
+COPY configs/telegraf.json /var/lib/grafana/dashboards/telegraf.json
+COPY configs/Wordpress.json /var/lib/grafana/dashboards/wordpress.json
 
 EXPOSE 3000
 

@@ -21,6 +21,7 @@ RUN touch /var/log/ftp/xferlog
 VOLUME /sys/fs/cgroup
 VOLUME ["/var/lib/ftp"]
 
-EXPOSE 21 3000
+EXPOSE 21 3001
+#3000
 
 CMD ./server.sh
