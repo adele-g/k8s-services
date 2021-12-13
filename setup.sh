@@ -35,7 +35,7 @@ kubectl apply -f srcs/influxdb/influxdb.yaml
 kubectl apply -f srcs/telegraf/telegraf.yaml
 kubectl apply -f srcs/grafana/grafana.yaml
 
-rm ~/.ssh/known_hosts
+# rm ~/.ssh/known_hosts
 
 sleep 5
 kubectl get pods
